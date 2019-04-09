@@ -1,4 +1,3 @@
-######################################################################################
 # This file needs to be in Tensorflows object_detection folder in order to work out
 # of the box. The code is originally modified from the object_detectionfile, reworked
 # by others and modified by me to function easily with Telegram.
@@ -28,14 +27,14 @@ IM_HEIGHT = 300
 # Use picamera
 camera_type = 'picamera'
 
-# This is needed since the working directory is the object_detection folder.
+# Directory is the object_detection folder.
 sys.path.append('..')
 
 # Import utilites
 from utils import label_map_util
 from utils import visualization_utils as vis_util
 
-# Name of the directory containing the object detection module we're using
+# Object detection module
 MODEL_NAME = 'ssdlite_mobilenet_v2_coco_2018_05_09'
 
 # Grab path to current working directory
@@ -96,7 +95,6 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 bot = telepot.Bot('YOUR BOT TOKEN')
 
 # Initialize camera and perform object detection.
-
 if camera_type == 'picamera':
     # Initialize Picamera and grab reference to the raw capture
     camera = PiCamera()
