@@ -7,8 +7,8 @@ As soon as a person is identified in the neural-net, you'll get a notice on the 
 
 
 # For this to work you need to install the following:
-- Tensorflow & OpenCV (Credits to https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi) for making a great tutorial
-- Telepot
+- Tensorflow & OpenCV (Credits to https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi) for making a great tutorial of how to properly set up Tensorflow on RPi!
+- Telepot, pythonframework for Telegram bot API
 
 You also need to setup a account on Telegram and create a bot, afterwards just insert your CHAT_ID in the script and you can easily send notifications to your Telegramapp if you have notifications activated :-)
 
