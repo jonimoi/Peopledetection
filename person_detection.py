@@ -137,7 +137,7 @@ if camera_type == 'picamera':
                 objects.append(object_dict)
         test = str(objects)
         # If a person is detected, send a message to your personal CHAT_ID of Telegram
-		if 'person' in test:
+	if 'person' in test:
             bot.sendMessage("YOUR_CHAT_ID_GOES_HERE", "ALERT !!! Person detected in room")
         cv2.imshow('Object detector', frame)
 
